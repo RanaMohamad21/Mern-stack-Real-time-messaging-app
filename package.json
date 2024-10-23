@@ -1,0 +1,17 @@
+{
+  "name": "mern-stack-real-time-messaging-app",
+  "version": "1.0.0",
+  "description": "This repository contains the complete code for a real-time chat application, with both frontend and backend components. The application allows users to engage in public and private chat rooms, send direct messages, and receive real-time notifications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon backend/index.js",
+    "start": "node backend/src/index.js",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
