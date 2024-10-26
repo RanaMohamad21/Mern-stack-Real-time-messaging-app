@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Contacts from "../../components/Contacts/Contacts";
 import Navbar from "../../components/Nav/Nav";
-import Topbar from "../../components/topbar/Topbar";
+import Topbar from "../../components/TopBar/TopBar";
 import Chat from "../../components/Chat/Chat";
 import NameBar from "../../components/NameBar/NameBar";
 import SearchBar from "../SearchBar/SearchBar";
